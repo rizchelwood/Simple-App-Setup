@@ -2,6 +2,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+Make sure to add `EXTEND_ESLINT="true"`in your .env file before running the project
+
 In the project directory, you can run:
 
 ### `npm start`

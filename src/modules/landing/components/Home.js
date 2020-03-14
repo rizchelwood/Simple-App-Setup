@@ -11,7 +11,7 @@ const spin = keyframes({
   },
 })
 
-const Layout = () => (
+const Home = () => (
   <div
     css={{
       textAlign: `center`,
@@ -19,13 +19,11 @@ const Layout = () => (
   >
     <header
       css={{
-        backgroundColor: `#282c34`,
-        minHeight: `100vh`,
         display: `flex`,
         flexDirection: `column`,
         alignItems: `center`,
         justifyContent: `center`,
-        fontSize: `calc(10px + 2vmin)`,
+        fontSize: `1.5rem`,
         color: `white`,
       }}
     >
@@ -51,4 +49,4 @@ const Layout = () => (
   </div>
 )
 
-export default Layout
+export default Home
